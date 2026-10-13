@@ -66,6 +66,11 @@ void drawDisplay () {
   rect(width/2, 30, 110, 30);
   fill(0);
   textAlign(RIGHT);
+  if(displayVal.length()> 12){
+    textSize(32);
+  } else if(displayVal.length()> 14) {
+    textSize(30);
+  }
   textSize(20);
   text(displayVal, width/3+80, 43);
 }
@@ -135,7 +140,17 @@ void keyPressed() {
     handleEvent('-', false);
   } else if (keyCode == 107) {
     handleEvent('+', false);
-  }
+  } else if (keyCode == 106) {
+    handleEvent('x', false);
+  } else if (keyCode == 111) {
+    handleEvent('÷', false);
+  } else if (keyCode == 10) {
+    handleEvent('=', false);
+  } else if (keyCode == 110) {
+    handleEvent('.', false);
+  } else if (keyCode == 8) {
+    handleEvent('C', false);
+  } 
 }
 
 void handleEvent(char val, boolean isNum) {
