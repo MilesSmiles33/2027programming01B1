@@ -5,39 +5,33 @@
 [Link to Source Code](https://github.com/MilesSmiles33/2027programming01B1/blob/main/src/Calculator/Calculator.pde)
 
 ## Overview
-[Write 2–3 sentences explaining what you are building
-and what a user can do with it.]
+I built a calculator and it helps you do simple math problems. This includes calculations from simple addition to square roots.
 
 ## Current Status
 Working:
-- [A feature you have tested]
-- [Another feature you have tested]
+- Can type all numbers and basic operators with keyboard
+- When backspace pressed, it resets
 
 Still in progress:
-- [A requirement you are finishing]
+- Getting all keys to be able to be pressed on keyboard
 
 ## How to Run
 Built with Processing.
-Processing version: [Your version]
+Processing version: 4.0.1
 
-[After the project files are uploaded, identify the
-project folder and main .pde file to open and run.]
+Go the the src folder and open the calculator.pde file to open the project.
 
 ## Controls
 Mouse:
-[Explain how to use the buttons.]
+Just press the buttons with the cursor over it to use them
 
 Keyboard:
-[List keys that currently work and what they do.
-Identify planned controls as not yet implemented.]
-
+1-9 work and so do all the basic operators. Enter is the equals and backspace is the reset. The other ones do not work yet.
 ## Project Files
-[Identify the main sketch and other tabs or assets
-you will upload.]
+The main sketch is calculator.pde and a side tab is button.pde.
 
 ## Testing
-[Record one test: actions, expected result,
-and actual result.]
+I did 6 x 9 - 5 and expected to get 25. And thats what I got after putting it into my calculator.
 
 ## Next Step
-[Name the specific behavior you will build or fix next.]
+Make the buttons that don't work on keyboard work now.
